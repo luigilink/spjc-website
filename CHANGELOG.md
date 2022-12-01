@@ -13,7 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - template.html
     - Add Google Tag for Google Analytics feature
+    - Add Meta information: keywords and description
 - package.json
     - Change deploy script value with "gh-pages -d dist"
+    - Change homepage value with "https://spjc.fr"
 - README.md
     - Add Description and Changelog information
+- webpack.config.js
+    - Update Htlm Title with "SPJC - SharePoint Guy"

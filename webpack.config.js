@@ -50,7 +50,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin ({
-            title: 'WebPack App',
+            title: 'SPJC - SharePoint Guy',
             filename: 'index.html',
             template: 'src/template.html',
         })
