@@ -9,10 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add CHANGELOG.md file
 - Add banner.js file
+- Add about.js file
 - Add NPM Package
     - free-brands-svg-icons
-    - react-on-screen
-    - animate.css
+    - react-simple-typewriter
 
 ### Changed
 

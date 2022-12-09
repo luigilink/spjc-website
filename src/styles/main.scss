@@ -2,6 +2,11 @@
 
 
 /* Default CSS*/
+:root {
+  --one-color: #446576;
+  --two-color: #09084c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +78,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('../assets/background.jpg');
+  background-image: linear-gradient(0deg, rgba(255 255 255 / 54%), rgba(0, 75, 161, 0.8)), url('../assets/background.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,10 +132,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
 
 .banner button:hover svg {
   margin-left: 25px;
-}
-
-.banner img {
-  animation: updown 3s linear infinite;
 }
 
 @keyframes updown {
@@ -194,4 +195,27 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
 
 .social-icon a:hover img {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+/************ About Css ************/
+.about {
+  margin-top: 40px;
+  padding: 260px 0 100px 0;
+}
+.about h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: var(--one-color);
+}
+.about p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  text-align: justify;
 }
