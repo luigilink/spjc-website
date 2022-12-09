@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add CHANGELOG.md file
+- Add banner.js file
+- Add NPM Package
+    - free-brands-svg-icons
+    - react-on-screen
+    - animate.css
 
 ### Changed
 
