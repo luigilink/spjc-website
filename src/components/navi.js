@@ -36,7 +36,7 @@ export const Navi = () =>  {
                         <Nav.Link href='#projects' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                         <Nav.Link href='#contact' className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
                     </Nav>
-                    <Nav className='flex-icons'>
+                    <Nav className='flex-icons navbar-socialicons'>
                         <Nav.Link target='_blank' href='https://www.linkedin.com/in/jean-cyril-drouhin/'><FontAwesomeIcon icon={faLinkedinIn} /></Nav.Link>
                         <Nav.Link target='_blank' href='https://github.com/luigilink'><FontAwesomeIcon icon={faGithubAlt} /></Nav.Link>
                         <Nav.Link target='_blank' href='https://twitter.com/luigilinkwii'><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
