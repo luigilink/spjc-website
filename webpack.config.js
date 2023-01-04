@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin =  require('html-webpack-plugin')
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 module.exports = {
     mode: 'development',
@@ -53,6 +54,23 @@ module.exports = {
             title: 'SPJC - SharePoint Guy',
             filename: 'index.html',
             template: 'src/template.html',
-        })
+            favicon: 'src/assets/favicon.svg',
+            manifest: 'src/manifest.json'
+        }),
+        new FaviconsWebpackPlugin({
+            logo: 'src/assets/favicon.svg', 
+            favicons: {
+              appName: 'SPJC',
+              appDescription: 'SPJC a SharePoint Guy',
+              developerName: 'LuigiLink',
+              developerURL: null, // prevent retrieving from the nearest package.json
+              background: '#ddd',
+              theme_color: '#333',
+              icons: {
+                coast: false,
+                yandex: false
+              }
+            }
+          })
     ],
 }

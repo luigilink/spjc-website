@@ -3,7 +3,7 @@
 The format is based on and uses the types of changes according to [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2022-12-01
+## [1.0.0] - 2023-01-04
 
 ### Added
 
@@ -11,19 +11,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add banner.js file
 - Add about.js file
 - Add projects.js file
+- Add projectcard.js file
+- Add contact.js file
+- Add footer.js file
 - Add NPM Package
-    - free-brands-svg-icons
-    - react-simple-typewriter
+  - free-brands-svg-icons
+  - react-simple-typewriter
+  - favicons-webpack-plugin
 
 ### Changed
 
 - template.html
-    - Add Google Tag for Google Analytics feature
-    - Add Meta information: keywords and description
+  - Add Google Tag for Google Analytics feature
+  - Add Meta information: keywords and description
 - package.json
-    - Change deploy script value with "gh-pages -d dist"
-    - Change homepage value with "https://spjc.fr"
+  - Change deploy script value with "gh-pages -d dist"
+  - Change homepage value with "https://spjc.fr"
 - README.md
-    - Add Description and Changelog information
+  - Add Description and Changelog information
 - webpack.config.js
-    - Update Htlm Title with "SPJC - SharePoint Guy"
+  - Update Htlm Title with "SPJC - SharePoint Guy"

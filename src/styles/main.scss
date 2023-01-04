@@ -205,8 +205,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
 
 /************ About Css ************/
 .about {
-  margin-top: 40px;
-  padding: 160px 0 100px 0;
+  padding-top: 160px;
 }
 .about h1 {
   font-size: 65px;
@@ -224,4 +223,94 @@ nav.navbar .navbar-nav a.nav-link.navbar-link:active {
   line-height: 1.5em;
   width: 96%;
   text-align: justify;
+}
+
+/************ Projects Css ************/
+.projects {
+  background-color: #446576;
+  position: relative;
+  padding-top: 120px;
+}
+.projects h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: #fff;
+}
+.proj-imgbx {
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.proj-imgbx::before {
+  content: "";
+  background: linear-gradient(90.21deg, var(--one-color) -5.91%, var(--two-color)111.58%);
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.4s ease-in-out;
+}
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.proj-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
+/************ Contact Css ************/
+.contact {
+  padding-top: 160px;
+}
+.contact h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: #fff;
+}
+
+/************ Footer Css ************/
+.footer {
+  padding: 0 0 50px 0;
+  background-color: var(--one-color);
+}
+.footer img {
+  width: 26%;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 }

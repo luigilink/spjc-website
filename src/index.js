@@ -4,6 +4,8 @@ import { Navi } from './components/navi';
 import { Banner } from './components/banner';
 import { About } from './components/about';
 import { Projects } from './components/projects';
+import { Contact } from './components/contact';
+import { Footer } from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/main.scss'
 
@@ -14,5 +16,7 @@ root.render(
         <Banner />
         <About />
         <Projects />
+        <Contact />
+        <Footer />
     </>
 );
